@@ -4,8 +4,10 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import {SiFacebook} from "react-icons/si";
 import {FaGoogle} from "react-icons/fa";
+import { useState } from "react";
 
 const Create = () => {
+  const [show, setShow] = useState(true);
   return (
     <>
       <Form className="mt-5">
@@ -47,7 +49,7 @@ const Create = () => {
         >
           <Form.Control type="password" placeholder="Password" />
         </FloatingLabel>
-        <Button variant="primary" type="submit" className="m-3">
+        <Button variant="primary" type="submit" className="m-3" onClick={()=>setShow(false)}>
           Submit
         </Button><br/>
         <a href="http://www.facebook.com" style={{textDecoration:"none"}}><SiFacebook/> Sign in with Facebook</a><br/>
