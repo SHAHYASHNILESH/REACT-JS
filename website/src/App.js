@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Button from "react-bootstrap/Button";
@@ -11,14 +10,13 @@ import Create from "./components/Create";
 
 function App() {
   return (
-      <div className="App">
+    <div className="App">
       <Navbar1 />
-      <Create/>
+      <Create />
       <Overlay />
       <Navbar2 />
-      <Cards />  
-      </div>
-
+      <Cards />
+    </div>
   );
 }
 

@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import {FiSearch} from "react-icons/fi"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 const Navbar1 = () => {
